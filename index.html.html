@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="parte1.css">
+<title>Magistas Velas - Deliciosos Postres Artesanales</title>
+
+</head>
+<body>
+<header>
+  <div class="container header-inner" role="banner">
+    <div class="logo" tabindex="0">Magistas Velas</div>
+    <nav aria-label="Navegación principal">
+      <a href="#inicio" tabindex="0">Inicio</a>
+      <a href="#productos" tabindex="0">Productos</a>
+      <a href="#contacto" tabindex="0">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="inicio" aria-label="Introducción al emprendimiento Magistas Velas">
+    <h1>Magistas Velas</h1>
+    <p>Deliciosos postres artesanales y exclusivos, hechos con amor y los mejores ingredientes naturales.</p>
+    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/90c2afd6-26fe-453a-9bd9-a46e1097aa2f.png" alt="Pastel artesanal decorado con tonos naranjas pastel, sobre fondo claro y minimalista" loading="lazy" />
+  </section>
+
+  <section class="offers-section" aria-label="Ofertas del día - marquesina">
+    <div class="offers-container">
+      <h2 class="offers-title">Ofertas del Día</h2>
+      <div class="carousel" role="region" aria-live="polite" aria-roledescription="carousel" aria-label="Ofertas especiales del día">
+        <div class="carousel-track">
+          <article class="carousel-item" tabindex="0">
+            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/a47e817d-384c-4009-b41e-55caa44c3a50.png" alt="Cupcakes de vainilla con glaseado naranja y decoración de azúcar" loading="lazy" />
+            <div class="carousel-item-content">
+              <h3>Cupcakes de Vainilla</h3>
+              <p>Lleva 6 cupcakes por solo $150. ¡Oferta válida hoy!</p>
+            </div>
+          </article>
+          <article class="carousel-item" tabindex="0">
+            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/bc3241bd-4c68-4b93-9288-fe0ed2c48abb.png" alt="Tarta de frutas frescas con base dorada y frutas naranjas" loading="lazy" />
+            <div class="carousel-item-content">
+              <h3>Tarta de Frutas</h3>
+              <p>20% de descuento en tartas medianas. Solo hoy.</p>
+            </div>
+          </article>
+          <article class="carousel-item" tabindex="0">
+            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/4ad9d8a5-0cf0-4257-a354-d510a8bec64d.png" alt="Galletas caseras de miel con textura crujiente y golden brown" loading="lazy" />
+            <div class="carousel-item-content">
+              <h3>Galletas de Miel</h3>
+              <p>Compra 2 paquetes y recibe un tercero gratis. Oferta limitada.</p>
+            </div>
+          </article>
+        </div>
+        <div class="carousel-buttons">
+          <button id="prev" aria-label="Oferta anterior" tabindex="0">&#10094;</button>
+          <button id="next" aria-label="Siguiente oferta" tabindex="0">&#10095;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="products-section" id="productos" aria-label="Galería de productos">
+    <h2 class="products-title">Nuestros Productos</h2>
+    <div class="products-grid">
+      <article class="product-card" tabindex="0" aria-label="Postre: Cheesecake de naranja">
+        <img class="product-image" src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/279548b1-60a6-48a5-9950-c5abb8411898.png" alt="Cheesecake de naranja con capa de glaseado pastel naranja brillante" loading="lazy" />
+        <h3 class="product-name">Cheesecake de naranja</h3>
+        <p class="product-desc">Suave y cremoso pastel con intenso sabor a naranja natural.</p>
+      </article>
+      <article class="product-card" tabindex="0" aria-label="Postre: Brownie con nueces">
+        <img class="product-image" src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/15a5a2d1-36fd-43c6-a633-cfa29ef5e2e3.png" alt="Brownie oscuro con nueces troceadas y textura húmeda" loading="lazy" />
+        <h3 class="product-name">Brownie con nueces</h3>
+        <p class="product-desc">Delicioso brownie con nueces crujientes y cobertura de chocolate.</p>
+      </article>
+      <article class="product-card" tabindex="0" aria-label="Postre: Rollos de canela">
+        <img class="product-image" src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/8004dee0-e89f-46ea-8d66-d98f1a474954.png" alt="Rollos de canela glaseados con azúcar y canela en polvo" loading="lazy" />
+        <h3 class="product-name">Rollos de canela</h3>
+        <p class="product-desc">Tiernos rollos con aroma a canela y glaseado dulce.</p>
+      </article>
+      <article class="product-card" tabindex="0" aria-label="Postre: Cupcakes de zanahoria">
+        <img class="product-image" src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/0b029477-0d7b-4bc0-9068-03880d410a9b.png" alt="Cupcakes de zanahoria con cobertura de queso crema, decorados en tonos anaranjados pastel" loading="lazy" />
+        <h3 class="product-name">Cupcakes de zanahoria</h3>
+        <p class="product-desc">Exquisitos cupcakes con especias y cobertura suave de queso crema.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="contacto" aria-label="Contacto">
+    <div class="container" style="padding: 0 16px 100px;">
+      <h2 style="text-align:center; color:#df7e3b; font-weight: 700; font-size: 2rem; margin-bottom: 32px;">Contáctanos</h2>
+      <p style="max-width: 600px; margin-left: auto; margin-right: auto; text-align:center; color:#6b4e2e;">
+        Para pedidos y consultas, escríbenos a <a href="mailto:contacto@magistasvelas.com">contacto@magistasvelas.com</a> o llama al <a href="tel:+5491123456789">+54 9 11 2345-6789</a>.
+      </p>
+      <p style="max-width: 600px; margin-left: auto; margin-right: auto; text-align: center; color:#6b4e2e; margin-top: 16px;">
+        Síguenos en redes sociales para no perderte nuestras novedades:
+      </p>
+      <p style="text-align: center; font-size: 1.4rem; color:#df7e3b; letter-spacing: 8px;">
+        <a href="#" aria-label="Facebook" style="margin-right:24px;">&#x1F426;</a>
+        <a href="#" aria-label="Instagram" style="margin-right:24px;">&#x1F4F7;</a>
+        <a href="#" aria-label="Twitter">&#x1F426;</a>
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  &copy; 2024 Magistas Velas. Todos los derechos reservados.
+</footer>
+
+
+<script src="parte.js" defer></script>
+
+</body>
+</html>
+
